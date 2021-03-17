@@ -5,6 +5,7 @@
 #include <tchar.h>
 //---------------------------------------------------------------------------
 USEFORM("UFormMain.cpp", FormMain);
+USEFORM("UFormCliente.cpp", FormCliente);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

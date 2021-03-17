@@ -87,6 +87,7 @@ object FormMain: TFormMain
         52B57D52B57D52B57D52B57E52B57E52B57D52B57D52B57D52B57D52B57D52B5
         7D52B57D52B57D52B57D52B57D52B57D52B57D52FFFFFFFFFFFF}
       TabOrder = 0
+      OnClick = btnProfessorClick
     end
   end
   object MainMenu1: TMainMenu

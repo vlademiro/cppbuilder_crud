@@ -1,33 +1,22 @@
 //---------------------------------------------------------------------------
 
-#ifndef UFormMainH
-#define UFormMainH
+#ifndef UFormClienteH
+#define UFormClienteH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
-#include <Vcl.Buttons.hpp>
-#include <Vcl.ExtCtrls.hpp>
-#include <Vcl.Menus.hpp>
 //---------------------------------------------------------------------------
-class TFormMain : public TForm
+class TFormCliente : public TForm
 {
 __published:	// IDE-managed Components
-	TPanel *Panel1;
-	TBitBtn *btnProfessor;
-	TMainMenu *MainMenu1;
-	TMenuItem *C1;
-	TMenuItem *Professor1;
-	TMenuItem *N1;
-	TMenuItem *Sair1;
-	void __fastcall EvEncerrarSistemaOnClick(TObject *Sender);
-	void __fastcall btnProfessorClick(TObject *Sender);
+	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 private:	// User declarations
 public:		// User declarations
-	__fastcall TFormMain(TComponent* Owner);
+	__fastcall TFormCliente(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TFormMain *FormMain;
+extern PACKAGE TFormCliente *FormCliente;
 //---------------------------------------------------------------------------
 #endif
