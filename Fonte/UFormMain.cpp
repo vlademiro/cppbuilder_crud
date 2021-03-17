@@ -14,3 +14,9 @@ __fastcall TFormMain::TFormMain(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
+void __fastcall TFormMain::EvEncerrarSistemaOnClick(TObject *Sender)
+{
+    Close();
+}
+//---------------------------------------------------------------------------
+
