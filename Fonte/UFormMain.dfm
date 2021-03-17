@@ -1,7 +1,7 @@
-object Form1: TForm1
+object FormMain: TFormMain
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Meu Sistema'
   ClientHeight = 243
   ClientWidth = 527
   Color = clBtnFace
@@ -10,7 +10,9 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  FormStyle = fsMDIForm
   OldCreateOrder = False
+  WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
 end

@@ -141,7 +141,7 @@
             <PCH>true</PCH>
         </PCHCompile>
         <CppCompile Include="UFormMain.cpp">
-            <Form>Form1</Form>
+            <Form>FormMain</Form>
             <FormType>dfm</FormType>
             <DependentOn>UFormMain.h</DependentOn>
             <BuildOrder>2</BuildOrder>
